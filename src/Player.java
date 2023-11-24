@@ -24,6 +24,7 @@ public class Player {
         Card top_card = pile.dequeue();
         return top_card;
     }
+
     // this method will return a Pile of N number of cards from a player's pile
     // this will return null if the player does not have enough cards
     public Pile getCards(int n) {
@@ -37,6 +38,7 @@ public class Player {
         }
         return npile;
     }
+
     /*
      * GETTERS AND SETTERS
      */
